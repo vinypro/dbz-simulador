@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input { @apply w-full rounded-xl border border-slate-300 px-3 py-2 bg-white/80; }
+.btn { @apply rounded-2xl border border-slate-300 px-3 py-2 shadow-sm bg-white hover:bg-slate-50 active:translate-y-[1px]; }
